@@ -13,7 +13,7 @@ root only in your termux.. your phone is not rooted
 
 # edit
 
-• nano start-kali.sh (make a # behind the first €)
+• nano start-kali.sh (make a # behind the first #)
    STRG + X (save as 'root')
 • chmod +x 'root'
 • cp root /data/data/com.termux/files/usr/bin
