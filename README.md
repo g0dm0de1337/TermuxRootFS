@@ -14,7 +14,7 @@ root only in your termux.. your phone is not rooted
 + install the rest
 - > hash -r
 
-- > wget https://raw.githubusercontent.com/g0dm0de1337/TermuxRootFS/main/minikali/root
+- > wget https://raw.githubusercontent.com/g0dm0de1337/TermuxRootFS/main/minikali/minikali.sh
 + 4download this script
 
 
