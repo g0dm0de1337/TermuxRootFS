@@ -41,10 +41,13 @@ figlet Root
 sleep 5
 clear
 
-figlet TermuxRoot 
-figlet with Kali mini
+figlet Termux
+figlet Root 
+sleep 5
+echo ".. with Kali mini"
 sleep 2
 printf "$reset"
+clear
 
 wget https://raw.githubusercontent.com/g0dm0de1337/MyTermux/main/kali.sh
 bash kali.sh
@@ -52,7 +55,7 @@ bash kali.sh
 figlet root
 figlet without
 figlet root
-sleep 5
+sleep 7
 
 mv start-kali.sh 'root'
 chmod +x 'root'
@@ -60,6 +63,9 @@ mv 'root' /data/data/com.termux/files/usr/bin
 mv kali-fs /data/data/com.termux/files/usr/bin
 mv kali-binds data/data/com.termux/files/usr/bin
 
+cd /data/data/com.termux/files/usr/bin
+ls
+sleep 7
 clear
 printf "$red"
 figlet Termux
