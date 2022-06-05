@@ -17,6 +17,16 @@ root only in your termux.. your phone is not rooted
 - > wget https://raw.githubusercontent.com/g0dm0de1337/TermuxRootFS/main/minikali/minikali.sh
 + 4download this script
 
++ ./start-kali.sh
+
++ wget wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+
++ dpkg -i kali-archive-keyring_2022.1_all.deb
+
++ apt update -y && apt upgrade -y
+
++ apt install sudo
+
 
 # edit
 
