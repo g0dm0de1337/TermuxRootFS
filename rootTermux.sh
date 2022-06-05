@@ -30,10 +30,12 @@ pkg install figlet -y
 
 clear
 printf "$yellow"
-figlet 1.Download
-figlet 2.Installation 
+figlet 1. Download
+sleep 2
+figlet 2. Install
+sleep 3
 echo ".. 1. starts now !!"
-sleep 5
+sleep 2
 printf "$reset"
 printf "$red"
 figlet Termux
@@ -43,9 +45,9 @@ clear
 
 figlet Termux
 figlet Root 
-sleep 5
+sleep 3
 echo ".. with Kali mini"
-sleep 2
+sleep 1
 printf "$reset"
 clear
 
@@ -56,7 +58,7 @@ bash kali.sh
 figlet root
 figlet without
 figlet root
-sleep 7
+sleep 3
 
 mv start-kali.sh 'root'
 chmod +x 'root'
@@ -73,6 +75,7 @@ echo "_____________"
 figlet g0dm0de
 figlet 1337
 printf "$reset"
+echo "https://github.com/g0dm0de1337"
 sleep 5
 echo "use command "root" "
 echo "at $HOME"
