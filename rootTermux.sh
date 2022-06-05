@@ -28,17 +28,42 @@ pkg install proot -y
 pkg install php -y
 pkg install figlet -y
 
+clear
 printf "$yellow"
-echo "Download&Installation starts now"
-sleep 2
+figlet Download
+figlet &Installation 
+echo "starts now !!"
+sleep 5
 printf "$reset"
 printf "$red"
 figlet Termux
 figlet Root
 sleep 5
-echo "TermuxRoot with Kali mini"
+clear
+
+figlet TermuxRoot 
+figlet with Kali mini
 sleep 2
 printf "$reset"
 
 wget https://raw.githubusercontent.com/g0dm0de1337/MyTermux/main/kali.sh
 bash kali.sh
+
+mv start-kali.sh 'root'
+chmod +x 'root'
+mv 'root' /data/data/com.termux/files/usr/bin
+mv kali-fs /data/data/com.termux/files/usr/bin
+mv kali-binds data/data/com.termux/files/usr/bin
+
+clear
+printf "$red"
+figlet Termux
+figlet Root
+figlet by g0dm0de
+figlet 1337
+printf "$reset"
+sleep 5
+echo "use command "root" "
+
+exit
+
