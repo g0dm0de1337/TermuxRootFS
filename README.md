@@ -36,14 +36,12 @@ root only in your termux.. your phone is not rooted
 
 # > edit
 
-- nano start-kali.sh (make a # behind the first #)
-~ save this as "root" for the special
-   STRG + X (save as 'root')
+- mv start-kali.sh 'root' 
 
 - chmod +x 'root'
 ~ for run this script
 
-- cp root /data/data/com.termux/files/usr/bin
+- cp 'root' /data/data/com.termux/files/usr/bin
 - cp kali-fs /data/data/com.termux/files/usr/bin
 - cp kali-binds data/data/com.termux/files/usr/bin
 ~ copie for work
