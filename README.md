@@ -1,31 +1,35 @@
-# TermuxRootFS
+## TermuxRootFS
 root only in your termux.. your phone is not rooted
 
-### in work !!
+# in work !! not READY !!
 
 
-# install
+## install
 
 - > pkg up -y
-+ update/upgrade all
+~ •update/upgrade all
 - > pkg install root-repo unstable-repo x11-repo
-+ install missed repos
+~ •install missed repos
 - > pkg install git curl nano mc openssl-tool proot -y
-+ install the rest
+~ •install the rest
 - > hash -r
 
-- > wget https://raw.githubusercontent.com/g0dm0de1337/TermuxRootFS/main/minikali/minikali.sh
-+ 4download this script
+- > wget https://github.com/g0dm0de1337/MyTermux/blob/main/kali.sh
 
-+ ./start-kali.sh
+- > chmod +x kali.sh && bash kali.sh
+~ •wait for install kali
 
-+ wget wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
++ > ./start-kali.sh
 
-+ dpkg -i kali-archive-keyring_2022.1_all.deb
++ > wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
 
-+ apt update -y && apt upgrade -y
++ > dpkg -i kali-archive-keyring_2022.1_all.deb
 
-+ apt install sudo
++ > apt update -y && apt upgrade -y
+
++ > apt install sudo -y
+
++ > exit
 
 
 # edit
