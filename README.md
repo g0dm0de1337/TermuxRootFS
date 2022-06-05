@@ -1,6 +1,10 @@
 ## TermuxRootFS
 root only in your termux.. your phone is not rooted
 
+apt-key :
+[ https://http.kali.org/pool/main/k/kali-archive-keyring/ ]
+
+
 # in work !! not READY !!
 
 
@@ -19,7 +23,11 @@ root only in your termux.. your phone is not rooted
 #### chmod +x kali.sh && bash kali.sh
 ~ > wait for install kali
 
-#### ./start-kali.sh
+#### mv start-kali.sh 'root'
+
+#### chmod +x 'root'
+
+#### ./root
 
 #### wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
 
@@ -31,24 +39,15 @@ root only in your termux.. your phone is not rooted
 
 #### exit
 
-
-[ https://http.kali.org/pool/main/k/kali-archive-keyring/ ]
-
-# > edit
-
-### mv start-kali.sh 'root' 
-
-### chmod +x 'root'
-
 ### cp 'root' /data/data/com.termux/files/usr/bin
 ### mv kali-fs /data/data/com.termux/files/usr/bin
 ### mv kali-binds data/data/com.termux/files/usr/bin
 
-~ copie for work
+
 
 + kill & reboot your Termux
 
-+ reboot Termux
++ > reboot Termux
 # root
 
 Finish
