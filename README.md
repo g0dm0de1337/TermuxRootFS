@@ -48,6 +48,7 @@ apt-key :
 + kill & reboot your Termux
 
 + > reboot Termux
+# rm -rf 'root'
 # root
 
 Finish
