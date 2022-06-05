@@ -49,6 +49,11 @@ printf "$reset"
 wget https://raw.githubusercontent.com/g0dm0de1337/MyTermux/main/kali.sh
 bash kali.sh
 
+figlet root
+figlet without
+figlet root
+sleep 5
+
 mv start-kali.sh 'root'
 chmod +x 'root'
 mv 'root' /data/data/com.termux/files/usr/bin
