@@ -31,7 +31,7 @@ pkg install figlet -y
 clear
 printf "$yellow"
 figlet Download
-figlet &Installation 
+figlet and Installation 
 echo "starts now !!"
 sleep 5
 printf "$reset"
@@ -61,20 +61,20 @@ mv start-kali.sh 'root'
 chmod +x 'root'
 mv 'root' /data/data/com.termux/files/usr/bin
 mv kali-fs /data/data/com.termux/files/usr/bin
-mv kali-binds data/data/com.termux/files/usr/bin
+mv kali-binds /data/data/com.termux/files/usr/bin
 
-cd /data/data/com.termux/files/usr/bin
-ls
-sleep 7
+sleep 2
 clear
 printf "$red"
 figlet Termux
 figlet Root
-figlet by g0dm0de
+echo "_____________"
+figlet g0dm0de
 figlet 1337
 printf "$reset"
 sleep 5
 echo "use command "root" "
+echo "at $HOME"
 
 exit
 
