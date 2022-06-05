@@ -6,33 +6,35 @@ root only in your termux.. your phone is not rooted
 
 ## install
 
-- > pkg up -y
-~ •update/upgrade all
-- > pkg install root-repo unstable-repo x11-repo
-~ •install missed repos
-- > pkg install git curl nano mc openssl-tool proot -y
-~ •install the rest
-- > hash -r
+#### pkg up -y
+- > update/upgrade all
+#### pkg install root-repo unstable-repo x11-repo
+- > install missed repos
+#### pkg install git curl nano mc openssl-tool proot -y
+- > install the rest
+#### hash -r
 
-- > wget https://github.com/g0dm0de1337/MyTermux/blob/main/kali.sh
+#### wget https://github.com/g0dm0de1337/MyTermux/blob/main/kali.sh
 
-- > chmod +x kali.sh && bash kali.sh
-~ •wait for install kali
+#### chmod +x kali.sh && bash kali.sh
+~ > wait for install kali
 
-+ > ./start-kali.sh
+#### ./start-kali.sh
 
-+ > wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
+#### wget https://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2022.1_all.deb
 
-+ > dpkg -i kali-archive-keyring_2022.1_all.deb
+#### dpkg -i kali-archive-keyring_2022.1_all.deb
 
-+ > apt update -y && apt upgrade -y
+#### apt update -y && apt upgrade -y
 
-+ > apt install sudo -y
+#### apt install sudo -y
 
-+ > exit
+#### exit
 
 
-# edit
+[ https://http.kali.org/pool/main/k/kali-archive-keyring/ ]
+
+# > edit
 
 - nano start-kali.sh (make a # behind the first #)
 ~ save this as "root" for the special
