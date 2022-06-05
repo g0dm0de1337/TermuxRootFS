@@ -30,9 +30,9 @@ pkg install figlet -y
 
 clear
 printf "$yellow"
-figlet Download
-figlet and Installation 
-echo "starts now !!"
+figlet 1.Download
+figlet 2.Installation 
+echo ".. 1. starts now !!"
 sleep 5
 printf "$reset"
 printf "$red"
@@ -50,6 +50,7 @@ printf "$reset"
 clear
 
 wget https://raw.githubusercontent.com/g0dm0de1337/MyTermux/main/kali.sh
+echo ".. 2. starts now !!"
 bash kali.sh
 
 figlet root
