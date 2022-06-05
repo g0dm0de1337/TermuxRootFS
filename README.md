@@ -36,18 +36,19 @@ root only in your termux.. your phone is not rooted
 
 # > edit
 
-- mv start-kali.sh 'root' 
+### mv start-kali.sh 'root' 
 
-- chmod +x 'root'
-~ for run this script
+### chmod +x 'root'
 
-- cp 'root' /data/data/com.termux/files/usr/bin
-- cp kali-fs /data/data/com.termux/files/usr/bin
-- cp kali-binds data/data/com.termux/files/usr/bin
+### cp 'root' /data/data/com.termux/files/usr/bin
+### mv kali-fs /data/data/com.termux/files/usr/bin
+### mv kali-binds data/data/com.termux/files/usr/bin
+
 ~ copie for work
 
-# kill & reboot your Termux
++ kill & reboot your Termux
 
---> root
++ reboot Termux
+# root
 
 Finish
